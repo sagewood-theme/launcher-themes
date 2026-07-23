@@ -1,0 +1,29 @@
+{
+    "colors": {
+        "AlternateBase": "#222a26",
+        "Base": "#2d3833",
+        "BrightText": "#d2ded7", 
+        "Button": "#3b4a43", 
+        "ButtonText": "#d2ded7", 
+        "Highlight": "#8da7b3",
+        "HighlightedText": "#222a26", 
+        "Link": "#9bb5b1",
+        "Text": "#d2ded7",
+        "ToolTipBase": "#222a26",
+        "ToolTipText": "#d2ded7",
+        "Window": "#2d3833",
+        "WindowText": "#d2ded7",
+        "fadeAmount": 0.5,
+        "fadeColor": "#677a70"
+    },
+    "logColors": {
+        "Launcher": "#caacc2",
+        "Error": "#d99c82",
+        "Warning": "#d6caa3",
+        "Debug": "#a8b59b",
+        "FatalHighlight": "#d99c82",
+        "Fatal": "#222a26"
+    },
+    "name": "Sagewood",
+    "widgets": "Fusion"
+}
