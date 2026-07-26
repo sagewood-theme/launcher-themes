@@ -1,0 +1,62 @@
+/* =========================================================================
+ * SAGEWOOD ROFI COLOR THEME
+ * ========================================================================= */
+
+* {
+    /* Palette Base */
+    bg0: #222a26; /* Crust */
+    bg1: #2d3833; /* Canvas */
+    bg2: #3b4a43; /* Active Surface */
+    
+    fg0: #d2ded7; /* Primary Text */
+    fg1: #677a70; /* Muted Text */
+    
+    accent: #a8b59b; /* Signature Sage */
+    urgent: #d99c82; /* Red/Rose */
+
+    /* Universal Rofi Overrides */
+    background-color: transparent;
+    text-color:       @fg0;
+}
+
+window {
+    background-color: @bg1;
+    border-color:     @accent;
+}
+
+inputbar {
+    background-color: @bg0;
+    text-color:       @fg0;
+}
+
+prompt {
+    text-color: @accent;
+}
+
+entry {
+    placeholder-color: @fg1;
+    text-color:        @fg0;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color:       @fg0;
+}
+
+element selected.normal {
+    background-color: @bg2;
+    text-color:       @accent;
+}
+
+element alternate.normal {
+    background-color: transparent;
+    text-color:       @fg0;
+}
+
+element normal.urgent, element selected.urgent {
+    text-color: @urgent;
+}
+
+element normal.active, element selected.active {
+    text-color: @accent;
+}
